@@ -1,0 +1,143 @@
+/* GENERAL STYLES*/
+
+* {
+             -webkit-box-sizing: border-box;
+             -moz-box-sizing: border-box;
+             box-sizing: border-box;
+}
+
+.button-primary {
+  border-radius: 100px;
+  width: 235px;
+}
+
+/*NAVIGATION*/
+nav {
+	min-height: 65px;
+	width: 100%;
+	background-color:  #a3a375;
+}
+
+nav ul{
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 10px;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding-top: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #262673;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+
+/*HEADER*/
+header {
+	position: relative;
+	height: 265px;
+	width: 100%;
+	background-color: #85adad;
+}
+
+.header-text{
+	position: absolute;
+	left: 35%;
+	top: 35%;
+}
+
+.header-heading, 
+.header-description {
+	margin-bottom: 1px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* FEATURE section */
+
+.feature{
+	border-bottom: 1px solid #ddd;
+}
+.feature-box {
+	margin-top: 35px;
+}
+
+.feature-box i {
+	float: left;
+	margin: 7px;
+}
+
+.feature-box p.feature-header {
+	font-weight: bold;
+}
+
+.feature-first i {
+	color: red;			
+}
+
+.feature-second i {
+	color:  #00ace6;
+}
+
+.feature-third i{
+	color: green;
+}
+
+.feature-forth i{
+	color: orange;
+}
+
+/*ABOUT-US SECTION*/
+
+.about-Us{
+	border-bottom: 1px solid #ddd;
+}
+
+.about-Us h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.photos{
+	margin-right: 5%;
+}
+
+/* PROJECTS SECTION*/
+
+.projects h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.projects{
+	border-bottom: 1px solid #ddd;
+}
+
+/* CONTACTS SECTION */
+.Contacts{
+	border-bottom: 1px solid #ddd;
+}
+
+/* FOOTER */
+footer{
+	min-height: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #85adad;
+}
+
+.soc_buttons i{
+	font-size: 28px;
+	margin: 15px;
+	color: #003366;
+
+}
+		
